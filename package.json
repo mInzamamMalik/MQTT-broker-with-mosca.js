@@ -1,0 +1,23 @@
+{
+  "name": "mqtt-server-client-hello-world-with-mosca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malikasinger1/MQTT-server-client-hello-world-with-mosca.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malikasinger1/MQTT-server-client-hello-world-with-mosca.js/issues"
+  },
+  "homepage": "https://github.com/malikasinger1/MQTT-server-client-hello-world-with-mosca.js#readme",
+  "dependencies": {
+    "jsonschema": "1.2.6",
+    "mosca": "^2.8.3"
+  }
+}
