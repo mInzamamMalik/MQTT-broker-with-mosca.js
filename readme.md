@@ -25,3 +25,11 @@ if((typeof schema !== 'boolean' && typeof schema !== 'object') || schema === nul
 
 
 read more here: https://stackoverflow.com/questions/64189045/node-js-mosca-broker-error-expected-schema-to-be-an-object-or-boolean
+
+
+
+
+REFERENCES: 
+https://medium.com/@alifabdullah/setting-up-private-mqtt-broker-using-mosca-in-node-js-c61a3c74f952
+https://medium.com/@alifabdullah/using-mqtt-protocol-with-node-js-f0eb8065b5b6
+https://www.npmjs.com/package/mqtt#client
