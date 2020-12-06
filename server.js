@@ -19,10 +19,12 @@ server.on('clientConnected', function (client) {
     console.log('client connected', client.id);
 });
 
-// fired when a message is received
-server.on('published', function (packet, client) {
-    console.log('Published', packet.payload);
-});
+// // fires when a message is published, incase if you wanted to do something when each client publish something
+// server.on('published', function (packet, client) {
+
+//     console.log('\nTopic', packet.topic);
+//     console.log('Message', packet.payload);
+// });
 
 server.on('ready', setup);
 
