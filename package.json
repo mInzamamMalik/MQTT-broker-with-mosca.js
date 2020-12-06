@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/malikasinger1/MQTT-server-client-hello-world-with-mosca.js#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "jsonschema": "1.2.6",
     "mosca": "^2.8.3",
     "mqtt": "^4.2.6"
