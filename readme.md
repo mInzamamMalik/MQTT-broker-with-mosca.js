@@ -1,5 +1,7 @@
 # Mosca is not maintained anymore. Please move to Aedes
 
+# at the moment this example is only working on local mqtt broker
+
 
 ## this project will not run until you do this heck: 
 
