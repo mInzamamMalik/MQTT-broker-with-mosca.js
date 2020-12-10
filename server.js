@@ -1,4 +1,7 @@
+var http = require('http');
 var mosca = require('mosca');
+var port = (process.env.PORT || 3000);
+
 
 // var ascoltatore = {
 //     //using ascoltatore
@@ -9,26 +12,35 @@ var mosca = require('mosca');
 // };
 
 var settings = {
-    port: 1883 || Number(process.env.PORT)
+    port: 1880 || Number(process.env.PORT)
     // backend: ascoltatore
 };
 
-var server = new mosca.Server(settings);
+var Mqttsv = new mosca.Server(settings);
 
-server.on('clientConnected', function (client) {
+Mqttsv.on('clientConnected', function (client) {
     console.log('client connected', client.id);
 });
 
 // // fires when a message is published, incase if you wanted to do something when each client publish something
-// server.on('published', function (packet, client) {
+// Mqttsv.on('published', function (packet, client) {
 
 //     console.log('\nTopic', packet.topic);
 //     console.log('Message', packet.payload);
 // });
 
-server.on('ready', setup);
+Mqttsv.on('ready', setup);
 
 // fired when the mqtt server is ready
 function setup() {
     console.log('Mosca server is up and running');
 }
+
+
+// // to host along with http server
+// var server = http.createServer();
+// Mqttsv.attachHttpServer(server)
+// server.listen(port, function (err) {
+//     if (err) throw err;
+//     console.log("Server is running on port: ", port);
+// });
