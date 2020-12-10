@@ -12,7 +12,7 @@ var port = (process.env.PORT || 3000);
 // };
 
 var settings = {
-    port: Number(port)
+    port: 1883
     // backend: ascoltatore
 };
 

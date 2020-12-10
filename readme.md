@@ -1,7 +1,17 @@
 # Mosca is not maintained anymore. Please move to Aedes
 
 # at the moment this example is only working on local mqtt broker
+mqtt brokers can not be hosted on heroku because it simply doesnt open the necessary port to run mqtt broker, other ways are available such as you run http server and when mqtt tries to connect you proxy it to mqtt but thats not something practical since heroku is not officially allowing to deploy that kind of thing someday you gona face a problem and you wil not get the solution anywhere, then where to host mqtt brokers? you can host your own broker only if you have your own dedicated server or a cloud instance running somewhere, for normal use cases just use brokers-as-service lots of companies are providing ready to use brokers such as cloudmqtt and I must say some of those are cheaper then having your own cloud instance and some of those are wellknown and reliable so they are charging more:
 
+#### mqtt hosting providers:
+
+1) Cloudmqtt - (https://www.cloudmqtt.com/plans.html)(no free plans)
+
+2) flespi - (https://flespi.com/pricing)(have 1 FREE plan)
+
+3) myqtthub - (https://www.mypthub.net/pricing/)(have 1 FREE plan)
+
+4) beebotte - (https://beebotte.com/plans)(have 1 FREE plan)
 
 ## this project will not run until you do this heck: 
 

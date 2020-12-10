@@ -1,6 +1,6 @@
 const mqtt = require('mqtt');
-var client = mqtt.connect('mqtt://localhost:1883');
-// var client = mqtt.connect('https://inzi.herokuapp.com'); // failed
+var client = mqtt.connect('http://localhost:1883'); // "http://" also works
+// var client = mqtt.connect('mqtt://inzi.herokuapp.com'); // failed
 
 client.on('connect', function () {
     client.subscribe('Topic07');
