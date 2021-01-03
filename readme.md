@@ -13,9 +13,13 @@ mqtt brokers can not be hosted on heroku because it simply doesnt open the neces
 
 4) beebotte - ( https://beebotte.com/plans )(have 1 FREE plan)
 
-## this project will not run until you do this heck: 
+see more here: https://en.wikipedia.org/wiki/Comparison_of_MQTT_implementations )
 
-# 1) install specific version of jsonschema
+
+---
+# This project will not run until you do this heck: 
+
+## 1) install specific version of jsonschema
 
 run `npm i jsonschema@1.2.6 --save` then goto packege.json remove cap sign from packege version and run `npm install` again.
 your packege.json should look like this: 
