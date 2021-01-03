@@ -5,13 +5,13 @@ mqtt brokers can not be hosted on heroku because it simply doesnt open the neces
 
 #### mqtt hosting providers:
 
-1) Cloudmqtt - (https://www.cloudmqtt.com/plans.html)(no free plans)
+1) Cloudmqtt - ( https://www.cloudmqtt.com/plans.html )(no free plans)
 
-2) flespi - (https://flespi.com/pricing)(have 1 FREE plan)
+2) flespi - ( https://flespi.com/pricing )(have 1 FREE plan)
 
-3) myqtthub - (https://www.mypthub.net/pricing/)(have 1 FREE plan)
+3) myqtthub - ( https://www.mypthub.net/pricing/ )(have 1 FREE plan)
 
-4) beebotte - (https://beebotte.com/plans)(have 1 FREE plan)
+4) beebotte - ( https://beebotte.com/plans )(have 1 FREE plan)
 
 ## this project will not run until you do this heck: 
 
